@@ -7,29 +7,29 @@ const progressBar = document.getElementById('progress-bar');
 
 const questions = [
   {
-    question: "Who is the director of MAIT?",
-    options: ["Prof.(Dr) Neelam Sharma", "Dr. M L Sharma", "Dr. Vinay Kumar Saini", "Ayushman Garg"],
-    answer: "Prof.(Dr) Neelam Sharma"
+    question: "Which is the largest mammal on Earth?",
+    options: ["African Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    answer: "Blue Whale"
   },
   {
-    question: "MAIT is affiliated with which university?",
-    options: ["IIT's", "GGSIPU", "NIT's", "AMITY"],
-    answer: "GGSIPU"
+    question: "What is the capital city of Canada?",
+    options: ["Ottawa", "Toronto", "Montreal", "Vancouver"],
+    answer: "Ottawa"
   },
   {
-    question: "Which of the following is a department of MAIT?",
-    options: ["IoT", "Neuro", "IT", "Music"],
-    answer: "IT" 
+    question: "Who painted the Mona Lisa?",
+    options: ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+    answer: "Leonardo da Vinci"
   },
   {
-    question: "How many blocks are there in MAIT?",
-    options: ["1", "2", "3", "8"],
-    answer: "8"
+    question: "What is the chemical symbol for gold?",
+    options: ["Au", "Ag", "Hg", "Fe"],
+    answer: "Au"
   },
   {
-    question: "What is the number of IT Block?",
-    options: ["8", "2", "3", "7"],
-    answer: "8"
+    question: "Which country is known as the Land of the Rising Sun?",
+    options: ["China", "India", "Japan", "South Korea"],
+    answer: "Japan"
   },
   { 
     question: "Who is the HOD of IT Department?",
@@ -100,5 +100,5 @@ function checkAnswer(selectedOption) {
 loadQuestion();
 
 submitBtn.addEventListener('click', () => {
-  // You can add functionality for a "Submit" button here if needed
+
 });
